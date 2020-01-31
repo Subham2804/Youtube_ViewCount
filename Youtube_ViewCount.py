@@ -22,17 +22,17 @@ while(True):
     views2=views2.replace(',','')
     views=int(views2)
     
-    likes=soup.find_all(class_='yt-uix-button-content')[15].get_text()
+    likes=soup.find_all(class_='yt-uix-button-content')[25].get_text()
     likes=likes.replace(',','')
     
 
 
-    dislikes=soup.find_all(class_='yt-uix-button-content')[18].get_text()
+    dislikes=soup.find_all(class_='yt-uix-button-content')[23].get_text()
     dislikes=dislikes.replace(',','')
     
 
 
-    subscribers=soup.find_all(class_='yt-uix-button-content')[20].get_text()
+    subscribers=soup.find_all(class_='yt-uix-button-content')[23].get_text()
     subscribers=subscribers.replace(',','')
 
 
